@@ -76,3 +76,19 @@ void puts2(char *str);
  * Return: void
  */
 
+void puts_half(char *str);
+
+/**
+ * print_array - prints an array
+ * @a: integer
+ * @n: integer
+ *
+ * Return: void
+ */
+void print_array(int *a, int n);
+
+/**
+ * _strcpy - copy string
+ *
+ * Return: Character
+ */
