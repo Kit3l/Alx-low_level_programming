@@ -37,3 +37,9 @@ void swap_int(int *a, int *b);
  * Return: integer len
  */
 int _strlen(char *s);
+/**
+ * puts - print to the stdout
+ * @str: string
+ *
+ * Return: void
+ */
