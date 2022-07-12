@@ -43,3 +43,14 @@ int _strlen(char *s);
  *
  * Return: void
  */
+
+void _puts(char *str);
+
+/**
+ * print_rev - print in reverse
+ * @str: string
+ *
+ * Return: void
+ */
+
+
