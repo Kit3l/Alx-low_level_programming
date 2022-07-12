@@ -59,4 +59,20 @@ void print_rev(char *str);
  * rev_string - reverse a string
  * @s: character pointer
  */
+void rev_string(char *s);
+
+/**
+ * _puts2 - print to the stdout
+ * @str: string
+ *
+ * Return: void
+ */
+
+void puts2(char *str);
+
+/**
+ * puts_half - print half a string
+ * @str: character pointer
+ * Return: void
+ */
 
