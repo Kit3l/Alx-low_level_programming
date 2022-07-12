@@ -53,4 +53,10 @@ void _puts(char *str);
  * Return: void
  */
 
+void print_rev(char *str);
+
+/**
+ * rev_string - reverse a string
+ * @s: character pointer
+ */
 
