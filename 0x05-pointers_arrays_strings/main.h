@@ -104,3 +104,20 @@ int _atoi(char *s);
 
 
 #endif
+
+/**
+ * swap_int - swap two integers
+ * @a: integer
+ * @b: integer
+ *
+ * Return: void
+ */
+void swap_int(int *a, int *b);
+
+/**
+ * _strlen - get a string length
+ * @s: character pointer
+ *
+ * Return: integer len
+ */
+
