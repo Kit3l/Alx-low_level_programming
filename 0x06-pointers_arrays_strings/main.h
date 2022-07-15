@@ -91,3 +91,15 @@ char *rot13(char *s);
  */
 
 void print_number(int n);
+
+int _putchar(char c);
+
+/**
+ * infinite_add - add two numbers
+ * @n1: number 1
+ * @n2: number 2
+ * @r: result
+ * @size_r: buffer size
+ *
+ * Return: pointer to sol
+ */
