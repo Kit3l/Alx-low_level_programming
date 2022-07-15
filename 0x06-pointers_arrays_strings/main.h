@@ -31,3 +31,13 @@ char *_strncat(char *dest, char *src, int n);
  *
  * Return: char
  */
+
+char *_strncpy(char *dest, char *src, int n);
+
+/**
+ * _strcmp - compare two strings
+ * @s1: char pointer
+ * @s2: char pointer
+ *
+ * Return: int
+ */
