@@ -75,3 +75,11 @@ char *cap_string(char *s);
  *
  * Return: string
  */
+
+char *leet(char *s);
+/**
+ * rot13 - encode a string using rot13
+ * @s: string
+ * 
+ * Return: string
+ */
