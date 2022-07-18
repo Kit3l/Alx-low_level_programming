@@ -21,6 +21,7 @@ char *_memset(char *s, char b, unsigned int n);
  * @n: number of bytes
  * Return: pointer to memory area
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n);
 
 /**
@@ -29,4 +30,15 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  * @c: target character
  * Return: pointer to that character in string
  */
+
 char *_strchr(char *s, char c);
+
+/**
+ * _strspn - return length of string that matches values
+ * given consistently
+ * @s: string to search
+ * @accept: target matches
+ * Return: number of bytes consecutively matched
+ */
+
+unsigned int _strspn(char *s, char *accept);
