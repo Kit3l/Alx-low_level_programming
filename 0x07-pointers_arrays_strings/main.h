@@ -22,3 +22,11 @@ char *_memset(char *s, char b, unsigned int n);
  * Return: pointer to memory area
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
+
+/**
+ * _strchr - locate a character in a string
+ * @s: string to search
+ * @c: target character
+ * Return: pointer to that character in string
+ */
+char *_strchr(char *s, char c);
