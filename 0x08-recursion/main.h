@@ -36,3 +36,11 @@ int _strlen_recursion(char *s);
  */
 
 int factorial(int n);
+
+/**
+ * _pow_recursion - x exponent y
+ * @x: number
+ * @y: power to raise to
+ *
+ * Return: power < 0 ? -1 : power of a number
+ */
