@@ -44,3 +44,12 @@ int factorial(int n);
  *
  * Return: power < 0 ? -1 : power of a number
  */
+
+int _pow_recursion(int x, int y);
+
+/**
+ * _sqrt_recursion - call @_this_is_root func
+ * @n: integer n
+ *
+ * Return: SUCCESS ? root : -1
+ */
