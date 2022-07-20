@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion - x exponent y
- * @x: number
- * @y: power to raise to
+ * @x: number value
+ * @y: power value
  *
  * Return: power < 0 ? -1 : power of a number
  */
