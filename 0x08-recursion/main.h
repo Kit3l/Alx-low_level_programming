@@ -25,3 +25,5 @@ void _print_rev_recursion(char *s);
  * @s: string
  * Return: string length
  */
+
+int _strlen_recursion(char *s);
