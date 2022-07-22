@@ -1,1 +1,1 @@
- This is a project on static libraries
+This is an update on project on static libraries
