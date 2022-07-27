@@ -45,3 +45,14 @@ char *_strdup(char *str);
  */
 
 char *str_concat(char *s1, char *s2);
+
+/**
+ * alloc_grid - return a pointer to a 2 dim array
+ * of integers
+ * @width: integer
+ * @height: integer
+ *
+ * Return: FAIL ? NULL : pointer to mem loc
+ */
+
+int **alloc_grid(int width, int height);
