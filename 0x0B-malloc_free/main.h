@@ -68,3 +68,13 @@ int **alloc_grid(int width, int height);
  */
 
 void free_grid(int **grid, int height);
+
+/**
+ * argstostr - concatenate all arguments given
+ * @ac: number of arguments
+ * @av: char pointer
+ *
+ * Return: SUCCESS ? pointer to string : NULL
+ */
+
+char *argstostr(int ac, char **av);
