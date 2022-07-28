@@ -19,4 +19,14 @@
 
 void *malloc_checked(unsigned int b);
 
+/**
+ * string_nconcat - allocates memory using malloc
+ * @s1: string
+ * @s2: string
+ * @n: length of string
+ *
+ * Return: pointer to memory location
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 
