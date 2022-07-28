@@ -30,3 +30,12 @@ void *malloc_checked(unsigned int b);
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 
+/**
+ * _calloc - allocate memory and set all values to 0
+ * @nmemb: size
+ * @size: sizeof(datatype)
+ * Return: pointer to calloc'd string
+ */
+
+void *_calloc(unsigned int nmemb, unsigned int size)
+
