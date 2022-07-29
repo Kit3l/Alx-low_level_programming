@@ -37,6 +37,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
  * Return: pointer to calloc'd string
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int);
 
 int *array_range(int min, int max);
