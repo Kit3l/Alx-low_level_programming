@@ -28,7 +28,7 @@ void *malloc_checked(unsigned int b);
  * Return: pointer to memory location
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 /**
  * _calloc - allocate memory and set all values to 0
