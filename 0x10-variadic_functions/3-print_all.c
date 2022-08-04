@@ -57,7 +57,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 
-	va_list params;
+	va_list parameters;
 	int i, j;
 	char *sep = "";
 
