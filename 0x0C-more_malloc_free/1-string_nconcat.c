@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * string_nconcat - allocates memory using malloc
@@ -9,30 +11,41 @@
  * Return: pointer to memory location
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *s;
-	int i, k;
+	unsigned int i;
+	unsigned int j;
+	unsigned int s1_len;
+	unsigned int concat_len
+	char *concat;
 
-	if ((int) n < 0)
+	s1_len = 0;
+
+	if (s1 == NULL)
+		s1 = "";
+
+	if (s2 == NULL)
+		s2 = "";
+
+	for (i = 0; s1[i]; i++)
+		s1_len++;
+
+	concat_len = s1_len + n;
+
+	concat = malloc(sizeof(char) * (concat_len + 1));
+	if (concat == NULL)
 		return (NULL);
-	if (!s1)
-		s1 = EMPTY;
-	if (!s2)
-		s2 = EMPTY;
 
-	s = malloc(sizeof(s1) + (sizeof(char) * (n + 1)));
-	if (!s)
-		return (NULL);
+	for (i = 0; i < s1_len; i++)
+	{
+		concat[i] = s1[i];
+	}
+	for (j = 0; j < n; j++; i++)
+	{
+		concat[i] = s2[j];
+	}
 
-	for (i = 0; s1[i] != END; i++)
-		s[i] = s1[i];
+	concat[i] = '\0';
 
-	for (k = 0; s2[k] != END && k < (int) n; k++)
-		s[i + k] = s2[k];
-
-	s[i + k] = END;
-
-	return (s);
+	return (concat);
 }
-
