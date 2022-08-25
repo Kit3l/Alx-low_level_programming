@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 		if (to_fd == -1 || wrt == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Can't write to %s\n", argv[2])
+				"Error: Can't write to %s\n", argv[2]);
 			free(buffer);
 			exit(99);
 		}
