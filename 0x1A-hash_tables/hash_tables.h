@@ -4,3 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#define table_t hash_table_t
+#define node_t hash_node_t
+
+#endif
