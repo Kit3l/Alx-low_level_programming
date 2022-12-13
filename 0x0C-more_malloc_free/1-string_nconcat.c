@@ -6,6 +6,7 @@
  * string_nconcat - allocates memory using malloc
  * @s1: string
  * @s2: string
+ * n:length of string
  * unsigned int n;
  *
  * Return: pointer to memory location
